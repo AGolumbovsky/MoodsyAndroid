@@ -24,5 +24,6 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:src="@drawable/mad150px" />
+        android:src="@drawable/mad150px"
+        android:onClick="animateMad" />
 </RelativeLayout>

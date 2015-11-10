@@ -10,11 +10,16 @@ public class MainActivity extends AppCompatActivity {
     public void animateHappy (View view){
 
         ImageView happy = (ImageView) findViewById(R.id.happy);
-        happy.animate().rotation(1800f).setDuration(2000);
+        happy.animate().rotation(1800f).setDuration(2000); // for some reason does it only once
 
     }
 
+    public void animateMad (View view) {
 
+        ImageView mad = (ImageView) findViewById(R.id.mad);
+        mad.animate().translationXBy(50f).setDuration(2000);
+       // mad.animate().translationXBy(-50f).setDuration(5000);
+    }
 
 
 
